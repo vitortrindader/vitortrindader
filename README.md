@@ -2,7 +2,7 @@
 - 👀 I’m interested in artificial inteligence, robotics, eletronics,...
 - 🌱 I’m currently learning artificial inteligence
 - 💞️ I’m looking to collaborate on artificial inteligence projects
-- 📫 How to reach me: vitortrribeiro@gmail.com
+
 
 <!---
 vitortrindader/vitortrindader is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
