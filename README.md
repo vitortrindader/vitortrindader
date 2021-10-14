@@ -14,6 +14,14 @@
   
 <div>
 <img align="center" alt="Vitor-Jup" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg">
+<img align="center" alt="Vitor-Numpy" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
+<img align="center" alt="Vitor-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+<img align="center" alt="Vitor-Tf" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" > 
+<img align="center" alt="Vitor-cv" height="30" width="40" src="https://profilinator.rishav.dev/skills-assets/opencv-icon.svg" > 
+<img align="center" alt="Vitor-keras" height="30" width="40" src="https://profilinator.rishav.dev/skills-assets/keras.png" >  
+<img align="center" alt="Vitor-torch" height="30" width="40" src="https://profilinator.rishav.dev/skills-assets/pytorch-icon.svg" >
+ 
+ 
 </div>
   
 ##
