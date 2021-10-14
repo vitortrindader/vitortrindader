@@ -10,16 +10,17 @@
   <img height="180em" width="400em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitortrindader&layout=compact&langs_count=7&theme=cobalt"/>
 </div>
   
-##
-  
-<div>
-<img align="center" alt="Vitor-Jup" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg">
-<img align="center" alt="Vitor-Numpy" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
-<img align="center" alt="Vitor-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-<img align="center" alt="Vitor-Tf" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" > 
-<img align="center" alt="Vitor-cv" height="30" width="40" src="https://profilinator.rishav.dev/skills-assets/opencv-icon.svg" > 
-<img align="center" alt="Vitor-keras" height="30" width="40" src="https://profilinator.rishav.dev/skills-assets/keras.png" >  
-<img align="center" alt="Vitor-torch" height="30" width="40" src="https://profilinator.rishav.dev/skills-assets/pytorch-icon.svg" >
+ <h2 align="center"> 🖥️ Languages and Technologies </h2>
+<div align="center">
+<img align="center" alt="Vitor-Jup" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg">
+<img align="center" alt="Vitor-Numpy" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
+<img align="center" alt="Vitor-Python" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+<img align="center" alt="Vitor-Tf" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" > 
+<img align="center" alt="Vitor-cv" height="50" width="60" src="https://profilinator.rishav.dev/skills-assets/opencv-icon.svg" > 
+<img align="center" alt="Vitor-keras" height="50" src="https://profilinator.rishav.dev/skills-assets/keras.png" >  
+<img align="center" alt="Vitor-torch" height="50" width="60" src="https://profilinator.rishav.dev/skills-assets/pytorch-icon.svg" >
+ 
+
  
  
 </div>
