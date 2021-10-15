@@ -5,7 +5,7 @@
 ⚡ I'm currently Graduating in Electrical Engineering at UFCG
 ```
 
- <div>
+ <div align="center">
   <a href="https://github.com/vitortrindader">
   <img height="180em" width="400em" src="https://github-readme-stats.vercel.app/api?username=vitortrindader&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
   <img height="180em" width="400em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitortrindader&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
