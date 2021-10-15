@@ -1,13 +1,14 @@
-- 👋 Hi, I’m @vitortrindader
-- 👀 I’m interested in artificial inteligence, robotics, eletronics,...
-- 🌱 I’m currently learning artificial inteligence
-- 💞️ I’m looking to collaborate on artificial inteligence projects
-
+# Hello World 👋, my name is Vitor Trindade
+```
+👀 I’m interested in artificial inteligence, robotics, eletronics,...
+🌱 I’m currently learning artificial inteligence
+⚡ I'm currently Graduating in Electrical Engineering at UFCG
+```
 
  <div>
   <a href="https://github.com/vitortrindader">
-  <img height="180em" width="400em" src="https://github-readme-stats.vercel.app/api?username=vitortrindader&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
-  <img height="180em" width="400em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitortrindader&layout=compact&langs_count=7&theme=cobalt"/>
+  <img height="180em" width="400em" src="https://github-readme-stats.vercel.app/api?username=vitortrindader&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
+  <img height="180em" width="400em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitortrindader&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
 </div>
   
  <h2 align="center"> 🖥️ Languages and Technologies </h2>
@@ -26,10 +27,18 @@
 </div>
   
 ##
-  
-<div> 
-  <a href="https://www.instagram.com/vitortrindader/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href="https://api.whatsapp.com/send?phone=558396310245" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
+ <h2 align="center"> 📨 Contact </h2>  
+<div align="center">
+<a href="https://github.com/vitortrindader" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white target="_blank" alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.linkedin.com/in/vitor-ribeiro" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white target="_blank" alt=linkedin style="margin-bottom: 5px;" />
+</a> 
+<a href="mailto:vitor.rocha@ee.ufcg.edu.br" target="_blank">
+<img src=https://img.shields.io/badge/-gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white target="_blank" alt=gmail style="margin-bottom: 5px;" />
+</a> 
+</div> 
 
   
 </div>
