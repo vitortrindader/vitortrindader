@@ -4,7 +4,13 @@ import NextLink from "next/link";
 
 export default function Navbar() {
   return (
-    <Flex minWidth="100%" align="center" justify="center" height="5rem">
+    <Flex
+      minWidth="100%"
+      align="center"
+      justify="center"
+      height="5rem"
+      boxShadow="md"
+    >
       <Flex width="95%" justify="space-between">
         <Flex w="100%" align="center">
           <Text
