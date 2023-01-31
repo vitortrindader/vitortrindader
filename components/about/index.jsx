@@ -12,7 +12,6 @@ export default function About() {
     <Flex justify="start" align="center" minH="calc(100vh - 5rem)">
       <Flex
         direction={{ base: "column", md: "row" }}
-        border="1px solid red"
         align="center"
         gap="2rem"
         width="100%"

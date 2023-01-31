@@ -20,12 +20,11 @@ import {
 } from "@chakra-ui/icons";
 
 export default function Navbar() {
-  const size = useWindowSize();
-
-  console.log(size);
+  //const { width } = useWindowSize();
 
   return (
     <Flex
+      position="fixed"
       minWidth="100%"
       align="center"
       justify="center"
@@ -43,7 +42,7 @@ export default function Navbar() {
           </Text>
         </Flex>
 
-        {size.width > 738 ? (
+        {/*         {width > 738 ? (
           <Flex gap="1rem" align="center" justify="center" w="100%">
             <Link as={NextLink} href="/" w="100%" align="center">
               Work
@@ -80,7 +79,7 @@ export default function Navbar() {
           </Menu>
         )}
 
-        {size.width > 738 ? (
+        {width > 738 ? (
           <Flex gap="1rem" justify="end" w="100%" align="center">
             <Link as={NextLink} href="/">
               <AiFillGithub size={32} />
@@ -89,7 +88,7 @@ export default function Navbar() {
               <AiFillLinkedin size={32} />
             </Link>
           </Flex>
-        ) : null}
+        ) : null} */}
       </Flex>
     </Flex>
   );
