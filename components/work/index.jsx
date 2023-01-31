@@ -1,5 +1,5 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
-import MyCard from "./myCard";
+import MyCard from "./MyCard";
 
 export default function Work() {
   return (
