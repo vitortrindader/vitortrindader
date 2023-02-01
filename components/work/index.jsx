@@ -1,9 +1,12 @@
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import MyCard from "./MyCard";
+import useWindowSize from "@/hooks/useWindowSize";
 
 export default function Work() {
+  const { width } = useWindowSize();
+
   return (
-    <Flex border="1px solid red" align="center" direction="column">
+    <Flex align="center" direction="column">
       <Flex direction="column" gap="1rem" padding="2rem">
         <Heading
           textAlign="center"
@@ -19,19 +22,24 @@ export default function Work() {
           </Text>
         </Flex>
       </Flex>
-      <Flex padding="1rem" gap="2rem">
+      <Flex
+        direction={width <= 925 ? "column" : "row"}
+        padding="1rem"
+        gap="2rem"
+      >
         <MyCard
-          src="/images/projectimage.jpg"
+          assuntos={["SQL", "Java"]}
+          src="/images/imagemCard.png"
           title="Título 1"
           description="Bla bla bla testando"
         />
         <MyCard
-          src="/images/projectimage2.jpg"
+          src="/images/imagemCard.png"
           title="Título 2"
           description="Bla bla bla testando"
         />
         <MyCard
-          src="/images/projectimage3.jpg"
+          src="/images/imagemCard.png"
           title="Título 3"
           description="Bla bla bla testando"
         />

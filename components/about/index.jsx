@@ -18,7 +18,13 @@ export default function About() {
         maxWidth="1200px"
         padding="1rem"
       >
-        <Flex align="center" justify="center" h="100%" width="25%">
+        <Flex
+          align="center"
+          justify="center"
+          h="100%"
+          width="25%"
+          marginTop={{ base: "100px", md: "0px" }}
+        >
           <Image
             src="/images/profileImage.png"
             alt="Profile"
