@@ -1,4 +1,12 @@
-import { Flex, Heading, Highlight, Text } from "@chakra-ui/react";
+import {
+  Button,
+  Flex,
+  Heading,
+  Highlight,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
+import { DownloadIcon } from "@chakra-ui/icons";
 
 export default function Resume() {
   return (
@@ -109,6 +117,20 @@ export default function Resume() {
         <Text fontSize={{ base: "sm", md: "lg" }}>
           Download my resume in PDF file
         </Text>
+        <Stack direction="row" spacing={4}>
+          <Button
+            leftIcon={<DownloadIcon />}
+            minWidth="12rem"
+            size="lg"
+            variant="solid"
+            bg="gray.800"
+            color="white"
+            borderColor="gray.500"
+            border="2px"
+          >
+            Download
+          </Button>
+        </Stack>
       </Flex>
     </Flex>
   );

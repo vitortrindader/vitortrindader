@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import Contact from "@/components/contact";
 import Navbar from "@/components/navbar";
 import Resume from "@/components/resume";
 import Work from "@/components/work";
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <Work />
       <Resume />
+      <Contact />
     </Flex>
   );
 }
