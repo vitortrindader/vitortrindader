@@ -1,5 +1,6 @@
 import About from "@/components/about";
 import Navbar from "@/components/navbar";
+import Resume from "@/components/resume";
 import Work from "@/components/work";
 import { Flex } from "@chakra-ui/react";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <About />
       <Work />
+      <Resume />
     </Flex>
   );
 }
