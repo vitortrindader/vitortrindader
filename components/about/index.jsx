@@ -10,7 +10,7 @@ import { Link } from "react-scroll/modules";
 
 export default function About() {
   return (
-    <Flex justify="start" align="center" minH="calc(100vh - 5rem)">
+    <Flex justify="start" align="center" minH="calc(100vh)">
       <Flex
         direction={{ base: "column", md: "row" }}
         align="center"

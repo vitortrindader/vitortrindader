@@ -6,7 +6,7 @@ export default function Work() {
   const { width } = useWindowSize();
 
   return (
-    <Flex id="work" align="center" direction="column">
+    <Flex id="work" align="center" direction="column" minHeight="100vh">
       <Flex direction="column" gap="1rem" padding="2rem">
         <Heading
           textAlign="center"

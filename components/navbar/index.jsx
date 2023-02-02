@@ -46,7 +46,7 @@ export default function Navbar() {
 
         {width > 738 ? (
           <Flex gap="1rem" align="center" justify="center" w="100%">
-            <Flex width="5rem" justify="center">
+            <Flex cursor="pointer" width="5rem" justify="center">
               <Link
                 activeClass="active"
                 to="work"
@@ -58,7 +58,7 @@ export default function Navbar() {
                 Work
               </Link>
             </Flex>
-            <Flex width="5rem" justify="center">
+            <Flex cursor="pointer" width="5rem" justify="center">
               <Link
                 activeClass="active"
                 to="resume"
@@ -70,7 +70,7 @@ export default function Navbar() {
                 Resume
               </Link>
             </Flex>
-            <Flex width="5rem" justify="center">
+            <Flex cursor="pointer" width="5rem" justify="center">
               <Link
                 activeClass="active"
                 to="contact"
@@ -92,17 +92,44 @@ export default function Navbar() {
               variant="outline"
             />
             <MenuList>
-              <MenuItem icon={<AddIcon />} command="⌘T">
-                New Tab
+              <MenuItem>
+                {" "}
+                <Link
+                  activeClass="active"
+                  to="work"
+                  spy={true}
+                  smooth={true}
+                  offset={-200}
+                  duration={500}
+                >
+                  My Work
+                </Link>
               </MenuItem>
-              <MenuItem icon={<ExternalLinkIcon />} command="⌘N">
-                New Window
+              <MenuItem>
+                {" "}
+                <Link
+                  activeClass="active"
+                  to="resume"
+                  spy={true}
+                  smooth={true}
+                  offset={-220}
+                  duration={500}
+                >
+                  Resume
+                </Link>
               </MenuItem>
-              <MenuItem icon={<RepeatIcon />} command="⌘⇧N">
-                Open Closed Tab
-              </MenuItem>
-              <MenuItem icon={<EditIcon />} command="⌘O">
-                Open File...
+              <MenuItem>
+                {" "}
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Contact
+                </Link>
               </MenuItem>
             </MenuList>
           </Menu>
