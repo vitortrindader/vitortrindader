@@ -9,8 +9,16 @@ import {
 import { DownloadIcon } from "@chakra-ui/icons";
 
 export default function Resume() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Files/ResumeVitorTrindade.pdf";
+    link.download = "ResumeVitorTrindade.pdf";
+    link.click();
+  };
+
   return (
     <Flex
+      id="resume"
       align="center"
       direction="column"
       marginTop={{ base: "5rem", md: "8rem" }}
@@ -119,6 +127,7 @@ export default function Resume() {
         </Text>
         <Stack direction="row" spacing={4}>
           <Button
+            onClick={handleDownload}
             leftIcon={<DownloadIcon />}
             minWidth="12rem"
             size="lg"

@@ -6,6 +6,7 @@ import {
   Image,
   Text,
 } from "@chakra-ui/react";
+import { Link } from "react-scroll/modules";
 
 export default function About() {
   return (
@@ -63,8 +64,18 @@ export default function About() {
                 borderColor="gray.500"
                 border="2px"
               >
-                Contact me
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Contact
+                </Link>
               </Button>
+
               <Button
                 minWidth="12rem"
                 size="lg"
@@ -73,7 +84,16 @@ export default function About() {
                 borderColor="gray.500"
                 border="2px"
               >
-                Check my work
+                <Link
+                  activeClass="active"
+                  to="work"
+                  spy={true}
+                  smooth={true}
+                  offset={-200}
+                  duration={500}
+                >
+                  Check my work
+                </Link>
               </Button>
             </Flex>
           </Flex>

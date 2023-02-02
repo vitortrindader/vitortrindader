@@ -1,9 +1,13 @@
-import { Button, Flex, Heading } from "@chakra-ui/react";
+import { Button, Flex, Link, Heading, Text } from "@chakra-ui/react";
+import NextLink from "next/link";
+import { useState } from "react";
 import { AiFillInstagram, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 export default function Contact() {
+  const [textCopied, setTextCopied] = useState(false);
   return (
     <Flex
+      id="contact"
       paddingBottom="100px"
       align="center"
       direction="column"
@@ -31,7 +35,14 @@ export default function Contact() {
             borderColor="gray.500"
             border="2px"
           >
-            Instagram
+            <Link
+              as={NextLink}
+              href="https://instagram.com/vitortrindader?igshid=ZDdkNTZiNTM="
+              w="100%"
+              align="center"
+            >
+              Instagram
+            </Link>
           </Button>
           <Button
             leftIcon={<AiFillLinkedin />}
@@ -42,19 +53,38 @@ export default function Contact() {
             borderColor="gray.500"
             border="2px"
           >
-            LinkedIn
+            <Link
+              as={NextLink}
+              href="https://www.linkedin.com/in/vitor-ribeiro-2769a41b0/"
+              w="100%"
+              align="center"
+            >
+              LinkedIn
+            </Link>
           </Button>
-          <Button
-            leftIcon={<AiFillMail />}
-            minWidth="12rem"
-            size="lg"
-            variant="outline"
-            color="gray.800"
-            borderColor="gray.500"
-            border="2px"
-          >
-            Email
-          </Button>
+          <Flex position="relative">
+            <Button
+              onClick={() => {
+                navigator.clipboard.writeText("vitortrribeiro@gmail.com");
+                setTextCopied(true);
+                setTimeout(() => setTextCopied(false), 1500);
+              }}
+              leftIcon={<AiFillMail />}
+              minWidth="12rem"
+              size="lg"
+              variant="outline"
+              color="gray.800"
+              borderColor="gray.500"
+              border="2px"
+            >
+              Email
+            </Button>
+            {textCopied && (
+              <Text top="50px" fontSize="xs" position="absolute">
+                E-mail copied to the clipboard!
+              </Text>
+            )}
+          </Flex>
         </Flex>
       </Flex>
     </Flex>

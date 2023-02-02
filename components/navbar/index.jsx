@@ -1,7 +1,6 @@
 import {
   Flex,
   IconButton,
-  Link,
   Menu,
   MenuButton,
   MenuItem,
@@ -19,6 +18,7 @@ import {
   RepeatIcon,
 } from "@chakra-ui/icons";
 
+import { Link } from "react-scroll/modules";
 export default function Navbar() {
   const { width } = useWindowSize();
 
@@ -46,15 +46,42 @@ export default function Navbar() {
 
         {width > 738 ? (
           <Flex gap="1rem" align="center" justify="center" w="100%">
-            <Link as={NextLink} href="/" w="100%" align="center">
-              Work
-            </Link>
-            <Link as={NextLink} href="/" w="100%" align="center">
-              Resume
-            </Link>
-            <Link as={NextLink} href="/" w="100%" align="center">
-              Contact
-            </Link>
+            <Flex width="5rem" justify="center">
+              <Link
+                activeClass="active"
+                to="work"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={500}
+              >
+                Work
+              </Link>
+            </Flex>
+            <Flex width="5rem" justify="center">
+              <Link
+                activeClass="active"
+                to="resume"
+                spy={true}
+                smooth={true}
+                offset={-220}
+                duration={500}
+              >
+                Resume
+              </Link>
+            </Flex>
+            <Flex width="5rem" justify="center">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Contact
+              </Link>
+            </Flex>
           </Flex>
         ) : (
           <Menu>
@@ -83,12 +110,15 @@ export default function Navbar() {
 
         {width > 738 ? (
           <Flex gap="1rem" justify="end" w="100%" align="center">
-            <Link as={NextLink} href="/">
+            <Flex as={NextLink} href="https://github.com/vitortrindader">
               <AiFillGithub size={32} />
-            </Link>
-            <Link as={NextLink} href="/">
+            </Flex>
+            <Flex
+              as={NextLink}
+              href="https://www.linkedin.com/in/vitor-ribeiro-2769a41b0/"
+            >
               <AiFillLinkedin size={32} />
-            </Link>
+            </Flex>
           </Flex>
         ) : null}
       </Flex>
